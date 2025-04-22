@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Személyes kérdőív</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f4f4f8;
+      color: #333;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    section {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 1rem;
+    }
+    input[type="text"], textarea, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .radio-group, .scale-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+    }
+    .scale {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.3rem;
+    }
+    .scale label {
+      font-weight: normal;
+    }
+    button {
+      padding: 0.75rem;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      max-width: 200px;
+      align-self: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Személyes kérdőív</h1>
+  <form>
+    <section>
+      <h2>Általános kérdések</h2>
+      <label>1. Milyen gyakran szoktál szexelni egy hónapban?</label>
+      <input type="text">
+      <label>2. Milyen gyakran önkielégítesz?</label>
+      <input type="text">
+      <label>3. Inkább reggel, napközben vagy este szoktál önkielégíteni?</label>
+      <input type="text">
+      <label>4. Előfordul, hogy pornót nézel közben?</label>
+      <input type="text">
+      <label>5. Milyen eszközöket/szexuális segédeszközöket használsz?</label>
+      <input type="text">
+      <label>6. Elégedett vagy a szexuális életeddel?</label>
+      <input type="text">
+      <label>7. Egyedül vagy partnerrel élvezed jobban a szexet?</label>
+      <input type="text">
+      <label>8. Nyitott vagy új dolgok kipróbálására a szexben?</label>
+      <input type="text">
+      <label>9. Fontos számodra az orgazmus a szex során?</label>
+      <input type="text">
+      <label>10. Volt már részed többszörös orgazmusban?</label>
+      <input type="text">
+    </section>
+
+    <section>
+      <h2>Állítás alapú kérdőív (1-5)</h2>
+      <div class="scale-group">
+        <label>1. Fontos számomra, hogy rendszeresen legyen szexuális együttlétem.</label>
+        <div class="scale">
+          <label><input type="radio" name="a1" value="1"> 1</label>
+          <label><input type="radio" name="a1" value="2"> 2</label>
+          <label><input type="radio" name="a1" value="3"> 3</label>
+          <label><input type="radio" name="a1" value="4"> 4</label>
+          <label><input type="radio" name="a1" value="5"> 5</label>
+        </div>
+        <label>2. Az önkielégítés természetes és egészséges dolog.</label>
+        <div class="scale">
+          <label><input type="radio" name="a2" value="1"> 1</label>
+          <label><input type="radio" name="a2" value="2"> 2</label>
+          <label><input type="radio" name="a2" value="3"> 3</label>
+          <label><input type="radio" name="a2" value="4"> 4</label>
+          <label><input type="radio" name="a2" value="5"> 5</label>
+        </div>
+        <label>3. A pornónézés pozitív hatással van a szexuális életemre.</label>
+        <div class="scale">
+          <label><input type="radio" name="a3" value="1"> 1</label>
+          <label><input type="radio" name="a3" value="2"> 2</label>
+          <label><input type="radio" name="a3" value="3"> 3</label>
+          <label><input type="radio" name="a3" value="4"> 4</label>
+          <label><input type="radio" name="a3" value="5"> 5</label>
+        </div>
+        <label>4. Néha bűntudatom van önkielégítés után.</label>
+        <div class="scale">
+          <label><input type="radio" name="a4" value="1"> 1</label>
+          <label><input type="radio" name="a4" value="2"> 2</label>
+          <label><input type="radio" name="a4" value="3"> 3</label>
+          <label><input type="radio" name="a4" value="4"> 4</label>
+          <label><input type="radio" name="a4" value="5"> 5</label>
+        </div>
+        <label>5. A kommunikáció a szexuális igényekről elengedhetetlen egy kapcsolatban.</label>
+        <div class="scale">
+          <label><input type="radio" name="a5" value="1"> 1</label>
+          <label><input type="radio" name="a5" value="2"> 2</label>
+          <label><input type="radio" name="a5" value="3"> 3</label>
+          <label><input type="radio" name="a5" value="4"> 4</label>
+          <label><input type="radio" name="a5" value="5"> 5</label>
+        </div>
+        <label>6. Elégedett vagyok a szexuális teljesítményemmel.</label>
+        <div class="scale">
+          <label><input type="radio" name="a6" value="1"> 1</label>
+          <label><input type="radio" name="a6" value="2"> 2</label>
+          <label><input type="radio" name="a6" value="3"> 3</label>
+          <label><input type="radio" name="a6" value="4"> 4</label>
+          <label><input type="radio" name="a6" value="5"> 5</label>
+        </div>
+        <label>7. Gyakran fantáziálok szexuális témákról.</label>
+        <div class="scale">
+          <label><input type="radio" name="a7" value="1"> 1</label>
+          <label><input type="radio" name="a7" value="2"> 2</label>
+          <label><input type="radio" name="a7" value="3"> 3</label>
+          <label><input type="radio" name="a7" value="4"> 4</label>
+          <label><input type="radio" name="a7" value="5"> 5</label>
+        </div>
+        <label>8. Fontos számomra, hogy a partnerem kielégüljön.</label>
+        <div class="scale">
+          <label><input type="radio" name="a8" value="1"> 1</label>
+          <label><input type="radio" name="a8" value="2"> 2</label>
+          <label><input type="radio" name="a8" value="3"> 3</label>
+          <label><input type="radio" name="a8" value="4"> 4</label>
+          <label><input type="radio" name="a8" value="5"> 5</label>
+        </div>
+        <label>9. Néha úgy érzem, hogy a szex inkább kötelesség, mint élvezet.</label>
+        <div class="scale">
+          <label><input type="radio" name="a9" value="1"> 1</label>
+          <label><input type="radio" name="a9" value="2"> 2</label>
+          <label><input type="radio" name="a9" value="3"> 3</label>
+          <label><input type="radio" name="a9" value="4"> 4</label>
+          <label><input type="radio" name="a9" value="5"> 5</label>
+        </div>
+        <label>10. Szívesen kipróbálnék szokatlan vagy tabu dolgokat is a szexben.</label>
+        <div class="scale">
+          <label><input type="radio" name="a10" value="1"> 1</label>
+          <label><input type="radio" name="a10" value="2"> 2</label>
+          <label><input type="radio" name="a10" value="3"> 3</label>
+          <label><input type="radio" name="a10" value="4"> 4</label>
+          <label><input type="radio" name="a10" value="5"> 5</label>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Nyílt kérdések</h2>
+      <label>1. Mikor kezdted el először az önkielégítést?</label>
+      <textarea rows="3"></textarea>
+      <label>2. Hogyan változott az önkielégítési szokásod az évek során?</label>
+      <textarea rows="3"></textarea>
+      <label>3. Milyen helyzetekben szoktál leginkább önkielégíteni?</label>
+      <textarea rows="3"></textarea>
+      <label>4. Milyen érzéseket vált ki belőled az önkielégítés utáni időszak?</label>
+      <textarea rows="3"></textarea>
+      <label>5. Használsz-e valamilyen fantáziát, emléket vagy külső ingert?</label>
+      <textarea rows="3"></textarea>
+    </section>
+
+    <section>
+      <h2>Zárt kérdések</h2>
+      <label>1. Milyen gyakran önkielégítesz?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="z1"> Napi szinten</label>
+        <label><input type="radio" name="z1"> Hetente néhányszor</label>
+        <label><input type="radio" name="z1"> Havonta néhányszor</label>
+        <label><input type="radio" name="z1"> Ritkábban</label>
+        <label><input type="radio" name="z1"> Soha</label>
+      </div>
+      <label>2. Szoktál közben pornót vagy erotikus tartalmat nézni?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="z2"> Igen</label>
+        <label><input type="radio" name="z2"> Nem</label>
+        <label><input type="radio" name="z2"> Ritkán</label>
+      </div>
+      <label>3. Használsz-e szexuális segédeszközt?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="z3"> Igen, rendszeresen</label>
+        <label><input type="radio" name="z3"> Néha</label>
+        <label><input type="radio" name="z3"> Nem</label>
+      </div>
+      <label>4. Szoktál-e önkielégíteni akkor is, ha rendszeres szexuális életed van?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="z4"> Igen</label>
+        <label><input type="radio" name="z4"> Nem</label>
+        <label><input type="radio" name="z4"> Csak ha a partnerem nem elérhető</label>
+      </div>
+      <label>5. Előfordult már, hogy bűntudatot éreztél utána?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="z5"> Igen, gyakran</label>
+        <label><input type="radio" name="z5"> Néha</label>
+        <label><input type="radio" name="z5"> Soha</label>
+      </div>
+    </section>
+
+    <section>
+      <h2>Állítások – önkielégítéssel kapcsolatban (1-5)</h2>
+      <div class="scale-group">
+        <label>1. Az önkielégítés segít a stressz levezetésében.</label>
+        <div class="scale">
+          <label><input type="radio" name="s1" value="1"> 1</label>
+          <label><input type="radio" name="s1" value="2"> 2</label>
+          <label><input type="radio" name="s1" value="3"> 3</label>
+          <label><input type="radio" name="s1" value="4"> 4</label>
+          <label><input type="radio" name="s1" value="5"> 5</label>
+        </div>
+        <label>2. Az önkielégítés javítja a hangulatomat.</label>
+        <div class="scale">
+          <label><input type="radio" name="s2" value="1"> 1</label>
+          <label><input type="radio" name="s2" value="2"> 2</label>
+          <label><input type="radio" name="s2" value="3"> 3</label>
+          <label><input type="radio" name="s2" value="4"> 4</label>
+          <label><input type="radio" name="s2" value="5"> 5</label>
+        </div>
+        <label>3. Úgy érzem, hogy az önkielégítés természetes része az életemnek.</label>
+        <div class="scale">
+          <label><input type="radio" name="s3" value="1"> 1</label>
+          <label><input type="radio" name="s3" value="2"> 2</label>
+          <label><input type="radio" name="s3" value="3"> 3</label>
+          <label><input type="radio" name="s3" value="4"> 4</label>
+          <label><input type="radio" name="s3" value="5"> 5</label>
+        </div>
+        <label>4. Néha túlságosan gyakran nyúlok az önkielégítéshez.</label>
+        <div class="scale">
+          <label><input type="radio" name="s4" value="1"> 1</label>
+          <label><input type="radio" name="s4" value="2"> 2</label>
+          <label><input type="radio" name="s4" value="3"> 3</label>
+          <label><input type="radio" name="s4" value="4"> 4</label>
+          <label><input type="radio" name="s4" value="5"> 5</label>
+        </div>
+    </section>
+
+    <button type="submit">Mentés</button>
+  </form>
+</body>
+</html>
